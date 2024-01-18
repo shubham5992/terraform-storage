@@ -12,3 +12,5 @@ resource "azurerm_storage_account" "example" {
 
   depends_on = [ azurerm_resource_group.resourcest ]
 }
+
+#this is for testing 
